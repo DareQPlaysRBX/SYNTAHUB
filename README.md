@@ -4,3 +4,9 @@
 
 What is Synta-Hub?
 - Synta-Hub is currently free GUI made for "Bubble Gum Simulator" and "Mining Simulator 2" by me DareQPlaysRBX#1001 and neexx#3314
+
+What Features does Synta-Hub offer?
+- All Features are published on our Discord Server
+
+Official Discord Invite:
+https://discord.gg/8JuzjDSDg5
