@@ -93,15 +93,14 @@ end
 if _G.Settings["Low Rendering"] or (_G.Settings.Other and _G.Settings.Other["Low Rendering"]) then
     settings().Rendering.QualityLevel = 1
 end
-)game:GetService("StarterGui"):SetCore("SendNotification", {
+game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "FPS Booster",
     Text = "Loading FPS Booster, this may take up to 25 seconds",
     Duration = math.huge,
     Button1 = "Okay"
-}
+})
 local Descendants = ReturnDescendants()
 local WaitNumber = 500
-
 for i, v in pairs(Descendants) do
     CheckIfBad(v)
     print("Loaded " .. i .. "/" .. #Descendants)
